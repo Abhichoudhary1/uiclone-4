@@ -1,0 +1,355 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container{
+    height: 800px;
+    width: 100%;
+    background-color: whitesmoke;
+    display: grid;
+    grid-template-columns: 200px 200px 200px ;
+    grid-template-rows: auto auto auto auto auto;
+    gap: 15px;
+    padding: 100px;
+    
+}
+
+
+.box-a{
+    height: 100px;
+    width: 50%;
+    grid-column: 1/4;
+    grid-row: 1/2;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+   
+
+}
+.box-a img{
+    border-radius: 50%;
+    border: 1px solid white;
+    background: whitesmoke;   
+
+}
+.con{
+    height: 100px;
+    width: 100%;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid transparent;
+    border-radius: 20px;
+}
+
+.box-b{
+    height: 250px;
+    width: 50%;
+    grid-column: 3/5;
+    grid-row: 1/5;
+    
+   
+}
+
+.box-b img{
+    border: 1px solid transparent;
+    border-radius: 20px;
+}
+
+.box-c span p{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.box-c span h5{
+    margin-top: 2px;
+  text-align: center;
+}
+
+.box-c{
+    height: 500px;
+    width: 50%;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    background-color: white;
+    
+    grid-column: 1/4;
+    grid-row: 2/4;
+}
+ .power{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    
+}
+.power span {
+    height: 50px;
+    width: 100%;
+   display: flex;
+   
+   flex-direction: column;
+    
+}
+.power button{
+    height: 30px;
+    width: 30px;
+    background-color: black;
+    color: white;
+   
+}
+.box-d{
+    height: 250px;
+    width: 50%;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    background-color: white;
+    grid-column: 3/5;
+    grid-row: 3/5;
+}
+
+.box-d .sc{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+   
+}
+.box-d .sc .mor{
+    height: 120px;
+    width: 40%;
+    background-color: lightskyblue;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 15px;
+    
+}
+.box-d .sc .mor i{
+   background-color: #fff;
+    padding: 10px;
+   border-radius: 50%;
+    border: 1px solid black;
+}
+.box-d .sc .mor span{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.box-d .sc .nig{
+    height: 120px;
+    width: 40%;
+    border: 1px solid white;
+    background-color: wheat;
+    border-radius: 20px;
+    padding: 15px;
+   
+}
+.box-d .sc .nig i{
+    background-color: yellow;
+    color: white;
+    padding: 10px;
+   border-radius: 50%;
+    border: 1px solid transparent;
+}
+.box-d .sc .nig span{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.box-d .sd{
+    border-radius: 25px;
+    background-color: white;
+    border: 1px solid black;
+    height: 50px;
+    width: 100%;
+    margin-top: 80px;
+   display: flex;
+    align-items: center;   
+}
+.box-d .sd .you{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.box-d .sd .you i{
+    background-color: whitesmoke;
+    padding: 10px;
+   border-radius: 50%;
+    border: 1px solid black;
+    
+}
+.box-d .sd .you button{
+    border: 1px solid transparent;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 15px;
+}
+.features{
+    height: 300px;
+    width: 100%;
+    margin-top: 20px;
+    border: 1px solid transparent;
+   border-radius: 5px;
+    padding: 20px
+
+}
+.features .ac{
+    height: 60px;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: ghostwhite;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   
+}
+.features .ac i{
+    border: 1px solid transparent;
+  
+    background-color: white;
+    padding: 10px;
+}
+.features .ac button{
+    border: none;
+    background-color: gainsboro;
+    border-radius: 0%;
+}
+.features .wifi{
+    height: 60px;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: ghostwhite;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+}
+.features .wifi i{
+    border: 1px solid transparent;
+   
+    background-color: white;
+    padding: 10px;
+}
+.features .wifi button{
+    border: none;
+    background-color: gainsboro;
+    border-radius: 0%;
+}
+ .features .smart{
+    height: 60px;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: ghostwhite;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+   
+}
+.features .smart i{
+    border: 1px solid transparent;
+    
+    background-color: white;
+    padding: 10px;
+}
+.features .smart button{
+    border: none;
+    background-color: gainsboro;
+    border-radius: 0%;
+}
+.features .humid{
+    height: 60px;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: ghostwhite;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+}
+.features .humid i{
+    border: 1px solid transparent;
+   
+    background-color: white;
+    padding: 10px;
+}
+.features .humid button{
+    border: none;
+    background-color: gainsboro;
+    border-radius: 0%;
+}
+/* media-query */
+@media (max-width:768px) {
+     .main-container{
+        height: auto;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+     }
+     .box-a{
+        height: auto;
+        width: 100%;
+     }
+     .box-a img{
+        height: auto;
+        width: 100%;
+       
+     }
+     .con{
+        height: auto;
+        width: 100%;
+     }
+     .box-b{
+        height: auto;
+        width: 150%;
+     
+     }
+     .box-b img{
+       height: auto;
+        width: 100%;
+     }
+    .box-c{
+        height: auto;
+        width: 150%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .power{
+        height: auto;
+        width: 100%;
+    }
+    .power span{
+        height: auto;
+        width: 100%;
+    }
+    .features{
+        height: auto;
+        width: 100%;
+    }
+    .box-d{
+        height: auto;
+        width: 150%;
+    }
+}
